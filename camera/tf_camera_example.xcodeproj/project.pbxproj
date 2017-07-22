@@ -18,8 +18,8 @@
 		1CDB2D4C1ED3A9CD007929E9 /* tensorflow_utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB2D481ED3A9CD007929E9 /* tensorflow_utils.mm */; };
 		1CDB2D4E1ED3AA35007929E9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CDB2D4D1ED3AA35007929E9 /* Info.plist */; };
 		54DC6C3C5F734F3A58069F0C /* libPods-tf_camera_example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA8BF92C84895BFE59D8236 /* libPods-tf_camera_example.a */; };
-		7F9A31111F226E02007D98B3 /* mmapped_graph.pb in Resources */ = {isa = PBXBuildFile; fileRef = 7F9A310F1F226E02007D98B3 /* mmapped_graph.pb */; };
-		7F9A31121F226E02007D98B3 /* retrained_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7F9A31101F226E02007D98B3 /* retrained_labels.txt */; };
+		7F852CAD1F22FAFB00DB3822 /* mmapped_graph.pb in Resources */ = {isa = PBXBuildFile; fileRef = 7F852CAB1F22FAFB00DB3822 /* mmapped_graph.pb */; };
+		7F852CAE1F22FAFB00DB3822 /* retrained_labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7F852CAC1F22FAFB00DB3822 /* retrained_labels.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,8 +44,8 @@
 		3BC5BE4BBD09374D3E98F082 /* Pods-tf_camera_example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tf_camera_example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tf_camera_example/Pods-tf_camera_example.debug.xcconfig"; sourceTree = "<group>"; };
 		55ED318E8D29C8AFEF03DF1E /* Pods-tf_camera_example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tf_camera_example.release.xcconfig"; path = "Pods/Target Support Files/Pods-tf_camera_example/Pods-tf_camera_example.release.xcconfig"; sourceTree = "<group>"; };
 		59A3CFF51CF4E68100C4259F /* grace_hopper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grace_hopper.jpg; sourceTree = "<group>"; };
-		7F9A310F1F226E02007D98B3 /* mmapped_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; name = mmapped_graph.pb; path = ../../../../../../../../tf_files/mmapped_graph.pb; sourceTree = "<group>"; };
-		7F9A31101F226E02007D98B3 /* retrained_labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = retrained_labels.txt; path = ../../../../../../../../tf_files/retrained_labels.txt; sourceTree = "<group>"; };
+		7F852CAB1F22FAFB00DB3822 /* mmapped_graph.pb */ = {isa = PBXFileReference; lastKnownFileType = file; name = mmapped_graph.pb; path = ../../../../../tf_files/mmapped_graph.pb; sourceTree = "<group>"; };
+		7F852CAC1F22FAFB00DB3822 /* retrained_labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = retrained_labels.txt; path = ../../../../../tf_files/retrained_labels.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +116,8 @@
 		59A3CFF31CF4E68100C4259F /* data */ = {
 			isa = PBXGroup;
 			children = (
-				7F9A310F1F226E02007D98B3 /* mmapped_graph.pb */,
-				7F9A31101F226E02007D98B3 /* retrained_labels.txt */,
+				7F852CAB1F22FAFB00DB3822 /* mmapped_graph.pb */,
+				7F852CAC1F22FAFB00DB3822 /* retrained_labels.txt */,
 				59A3CFF51CF4E68100C4259F /* grace_hopper.jpg */,
 			);
 			path = data;
@@ -158,7 +158,7 @@
 				TargetAttributes = {
 					1C564C0C1ED3A92E00087306 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 5DRPWFQSHP;
+						DevelopmentTeam = 9U7SUSVWW2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -187,8 +187,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C968D171ED3B8F20054F5C3 /* grace_hopper.jpg in Resources */,
-				7F9A31121F226E02007D98B3 /* retrained_labels.txt in Resources */,
-				7F9A31111F226E02007D98B3 /* mmapped_graph.pb in Resources */,
+				7F852CAE1F22FAFB00DB3822 /* retrained_labels.txt in Resources */,
+				7F852CAD1F22FAFB00DB3822 /* mmapped_graph.pb in Resources */,
 				1C99111C1ED3B0E600A6BFB9 /* MainStoryboard_iPhone.storyboard in Resources */,
 				1CDB2D4E1ED3AA35007929E9 /* Info.plist in Resources */,
 			);
@@ -268,11 +268,11 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				DEVELOPMENT_TEAM = 5DRPWFQSHP;
+				DEVELOPMENT_TEAM = 9U7SUSVWW2;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pf.tf-camera-example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gnourtnivek.tf-camera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -288,11 +288,11 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				DEVELOPMENT_TEAM = 5DRPWFQSHP;
+				DEVELOPMENT_TEAM = 9U7SUSVWW2;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pf.tf-camera-example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gnourtnivek.tf-camera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
